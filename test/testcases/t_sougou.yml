@@ -1,0 +1,7 @@
+- config:
+    name: 搜索666
+    request: $default_request
+
+- test:
+  name: m_sougou
+  suite: m_sougou()

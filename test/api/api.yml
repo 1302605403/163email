@@ -1,4 +1,82 @@
-- api
-daf
-sadf
-asdf
+- api:
+    def: api_souguo()
+    variables:
+      -sougou_url: '/cl.gif' 
+    requset:
+      url: $sougou_url
+      method: GET
+      params:
+          abtestid: '0'
+          adltan: '0'
+          adltbn: 'null'
+          adn: '0'
+          bl: '-1_127_0_0'
+          clHeight: '12'
+          clraHeight: '12'
+          copyright: '0'
+          cost: '37'
+          eg: '1'
+          ekv: '-1'
+          exp_id: null_0
+          exp_id_list: 'null'
+          exp_status: 'null'
+          fanyiciye: '0'
+          gaoduan_firstshow: '0'
+          gaoduan_secondshow: '0'
+          gaoduan_thirdshow: '0'
+          googlead: '0'
+          hbn: '0'
+          htn: '12'
+          idc: js
+          intcat: web
+          inttab: 61-0_39-1_43-2_41-3_40-4_28-5_9-6_29-7_30-8_62-9_
+          jhhint: '0'
+          jhshuxing: '0'
+          ladh: '-1'
+          lbadh: '-1'
+          leadtest: '-1'
+          legalad: '1'
+          lkx: '-1'
+          loc: CN3100
+          mmc: '193'
+          mml: '27'
+          msrc: sm
+          pagenum: '1'
+          pid: sogou-clse-f507783927f2ec27
+          pn: '0'
+          protocol: https
+          qcn: '0'
+          qflag: '0'
+          qjf: sogou-clse-f507783927f2ec27
+          qtype: '0'
+          query: '1513988888'
+          radn: '0'
+          rn: '1'
+          rw: ''
+          s_from: result_up
+          scrnhi: '1080'
+          scrnwi: '1920'
+          servuri: '%2Fwebsearch%2Fbdsearch.jsp'
+          sm: d0_0
+          stype: '2'
+          type: pc_web_result
+          uigs_cl: searchBtn&href=
+          uigs_cookie: SUID=8C8D57653220910A000000005AA73CA6&sct=154
+          uigs_id: searchBtn
+          uigs_pbtag: A
+          uigs_productid: web
+          uigs_refer: https://www.sogou.com/tx?query=1513988888&ie=utf8&_ast=1544848768&_asf=null&w=01029901&hdq=sogou-clse-f507783927f2ec27&duppid=1&cid=&s_from=result_up&sut=17291&sst0=1544848874379&lkt=10%2C1544848859502%2C1544848861154&sugsuv=002C0C6965578D8C5AA73CA6359B1153&sugtime=1544848874379
+          uigs_st: '21'
+          uigs_t: '1544848957053951'
+          uigs_uuid: '1544848935420266'
+          uigs_version: v1.9.5
+          uuid: f05cf87c-8865-4156-900b-a57d8e419651
+          vr: '11007101_0'
+          vrdetail: '11007101_0'
+          warnLevel: '127'
+          yyid: ''
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6776.400
+            QQBrowser/10.3.2601.400
+

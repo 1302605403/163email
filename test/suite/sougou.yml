@@ -1,0 +1,12 @@
+- config:
+    name: m_sougou
+    def: m_sougou()
+    request: $default_request
+
+- test:
+  name: 搜索
+  api: api_souguo()
+  validate:
+    - {"eq":["content.success",true]}
+
+
